@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -g   CMakeFiles/lidar_start.dir/src/main_lidar.cpp.o CMakeFiles/lidar_start.dir/src/rplidar_driver.cpp.o CMakeFiles/lidar_start.dir/src/arch/linux/timer.cpp.o CMakeFiles/lidar_start.dir/src/arch/linux/net_serial.cpp.o CMakeFiles/lidar_start.dir/src/hal/thread.cpp.o  -o ../lidar_start -rdynamic -lpthread 

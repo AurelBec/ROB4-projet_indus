@@ -1,3 +1,0 @@
-/home/ubuntu/projet/mutu/suivi_trajectoire/CMakeFiles/edit_cache.dir
-/home/ubuntu/projet/mutu/suivi_trajectoire/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/projet/mutu/suivi_trajectoire/CMakeFiles/suivi_traj.dir

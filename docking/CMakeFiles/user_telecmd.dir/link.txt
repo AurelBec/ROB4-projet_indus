@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -g   CMakeFiles/user_telecmd.dir/src/main.cpp.o  -o /home/ubuntu/projet/mutu/user_telecmd -rdynamic -lpthread 

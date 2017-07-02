@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -g   CMakeFiles/user_telecmd.dir/src/main_usr.cpp.o CMakeFiles/user_telecmd.dir/src/keyInteraction.cpp.o  -o ../user_telecmd -rdynamic -lpthread 

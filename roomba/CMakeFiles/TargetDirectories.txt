@@ -1,3 +1,0 @@
-/home/ubuntu/projet/mutu/roomba/CMakeFiles/edit_cache.dir
-/home/ubuntu/projet/mutu/roomba/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/projet/mutu/roomba/CMakeFiles/roomba_start.dir

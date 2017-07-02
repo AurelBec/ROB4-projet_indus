@@ -1,3 +1,0 @@
-/home/ubuntu/projet/mutu/utilisateur/CMakeFiles/edit_cache.dir
-/home/ubuntu/projet/mutu/utilisateur/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/projet/mutu/utilisateur/CMakeFiles/user_telecmd.dir

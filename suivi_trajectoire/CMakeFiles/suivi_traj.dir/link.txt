@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -g   CMakeFiles/suivi_traj.dir/src/main_suiv.cpp.o  -o ../suivi_traj -rdynamic -lpthread 

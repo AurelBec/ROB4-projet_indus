@@ -1,3 +1,0 @@
-/home/ubuntu/projet/mutu/ros/CMakeFiles/edit_cache.dir
-/home/ubuntu/projet/mutu/ros/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/projet/mutu/ros/CMakeFiles/ROS.dir

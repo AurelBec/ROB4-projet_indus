@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -g   CMakeFiles/ROS.dir/src/Config.cpp.o CMakeFiles/ROS.dir/src/Main.cpp.o CMakeFiles/ROS.dir/src/Port.cpp.o CMakeFiles/ROS.dir/src/Fifo.cpp.o CMakeFiles/ROS.dir/src/Node.cpp.o  -o ../ROS -rdynamic -lpthread 

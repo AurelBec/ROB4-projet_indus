@@ -1,3 +1,0 @@
-/home/ubuntu/projet/mutu/lidar/CMakeFiles/edit_cache.dir
-/home/ubuntu/projet/mutu/lidar/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/projet/mutu/lidar/CMakeFiles/lidar_start.dir

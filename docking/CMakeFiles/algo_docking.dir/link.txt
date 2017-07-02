@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -g   CMakeFiles/algo_docking.dir/src/main_docking.cpp.o  -o ../algo_docking -rdynamic -lpthread 

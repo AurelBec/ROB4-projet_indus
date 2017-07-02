@@ -1,3 +1,0 @@
-/home/ubuntu/projet/mutu/navigation/CMakeFiles/edit_cache.dir
-/home/ubuntu/projet/mutu/navigation/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/projet/mutu/navigation/CMakeFiles/nav_start.dir
