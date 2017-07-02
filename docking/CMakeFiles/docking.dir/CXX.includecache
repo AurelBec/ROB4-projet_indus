@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/projet/mutu/docking/src/main.cpp
+unistd.h
+-
+fcntl.h
+-
+termios.h
+-
+errno.h
+-
+iostream
+-
+

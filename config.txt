@@ -1,0 +1,44 @@
+node: user_telecmd
+  bin: ./user_telecmd
+  publish: request -> docking.fifo
+  publish: destination -> destination.fifo
+  publish: commande -> command_usr.fifo
+
+node: docking
+  bin: ./algo_docking
+  publish: commande -> command_docking.fifo
+  listen: request <- docking.fifo
+
+node: roomba
+  bin: ./roomba_start
+  args: --baudrate 19200
+  publish: odometry -> odometry.fifo
+  listen: commande_usr <- command_usr.fifo
+  listen: postures <- postures.fifo
+  listen: commande_dock <- command_docking.fifo
+
+node: suivi_traj
+  bin: ./suivi_traj
+  publish: postures -> postures.fifo
+  listen: localisation <- localisation.fifo
+  listen: chemin <- chemin.fifo
+
+node: lidar
+  args: path /dev/ttyUSB1
+  bin: ./lidar_start
+  publish: mesure_map -> mesure_map.fifo
+  publish: mesure_nav -> mesure_nav.fifo
+
+node: mapping
+  bin: ./slam_start
+  publish: localisation -> localisation.fifo
+  publish: slam_info -> slam_info.fifo
+  listen: odometry <- odometry.fifo
+  listen: mesure <- mesure_map.fifo
+
+node: navigation
+  bin: ./nav_start
+  publish: chemin -> chemin.fifo
+  listen: destination <- destination.fifo
+  listen: slam_info <- slam_info.fifo
+  listen: mesure <- mesure_nav.fifo

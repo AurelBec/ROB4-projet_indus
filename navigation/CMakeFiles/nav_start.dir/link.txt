@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g   CMakeFiles/nav_start.dir/src/main_navigation.cpp.o  -o ../nav_start -rdynamic -lpthread 

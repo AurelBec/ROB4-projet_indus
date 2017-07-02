@@ -1,0 +1,11 @@
+project(ProjetIndustriel)
+cmake_minimum_required(VERSION 2.6)
+
+add_subdirectory(docking)
+add_subdirectory(lidar)
+add_subdirectory(mapping)
+add_subdirectory(navigation)
+add_subdirectory(roomba)
+add_subdirectory(ros)
+add_subdirectory(suivi_trajectoire)
+add_subdirectory(utilisateur)

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aurelien/workspace/cpp/indus/navigation/src/main_navigation.cpp
+unistd.h
+-
+fcntl.h
+-
+termios.h
+-
+errno.h
+-
+iostream
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g   CMakeFiles/roomba_start.dir/src/main_roomba.cpp.o CMakeFiles/roomba_start.dir/src/thread.cpp.o CMakeFiles/roomba_start.dir/src/Roomba.cpp.o CMakeFiles/roomba_start.dir/src/common.cpp.o  -o ../roomba_start -rdynamic -lpthread /usr/local/lib/libwiringPi.so -lrt -lcrypt -Wl,-rpath,/usr/local/lib 

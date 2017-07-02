@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g   CMakeFiles/docking.dir/src/main.cpp.o  -o . -rdynamic -lpthread 

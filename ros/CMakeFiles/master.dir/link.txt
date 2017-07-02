@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g   CMakeFiles/master.dir/src/Port.cpp.o CMakeFiles/master.dir/src/Config.cpp.o CMakeFiles/master.dir/src/Main.cpp.o CMakeFiles/master.dir/src/Fifo.cpp.o CMakeFiles/master.dir/src/Node.cpp.o  -o ../master -rdynamic -lpthread 
